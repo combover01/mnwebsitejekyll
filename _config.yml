@@ -10,17 +10,26 @@
 ############################
 
 # Name of website
-title: My Website
+title: GTMN Under the Couch
 
 # Your name to show in the footer
-author: Some Person
+author: GT Musician's Network Web Dev Committee <3
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Main page: "mainpage" # (blog style)
+  Event calendar: "eventcalendar"
+  Book practice time: "booktime" # (embed booking calendar but not google calendar)
+  Equipment Rental: "equipmentrental" 
+  MLC: "mlc" # (blog style)
+  History: "history" # (blog style)
+  About us: "aboutus" # (about MN/about officers tabs)
+  
+#   About Me: "aboutme"
+  
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
