@@ -13,18 +13,14 @@
 title: My Website
 
 # Your name to show in the footer
-author: Some Person
+author: GT Musicians Network Web Dev Committee
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  # About Me: "aboutme"
-  # Resources:
-  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
-  #   - Learn markdown: "https://www.markdowntutorial.com/"
-  # Author's home: "https://deanattali.com"
+#   Main page: "mainpage" # (blog style)
   Event calendar: "eventcalendar"
   Book practice time: "booktime" # (embed booking calendar but not google calendar)
   Equipment Rental: "equipmentrental" 
@@ -32,6 +28,12 @@ navbar-links:
   History: "history" # (blog style)
   About us: "aboutus" # (about MN/about officers tabs)
   
+#   About Me: "aboutme"
+  
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -39,7 +41,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/logo_black.png"
+avatar: "logo_black.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -59,17 +61,17 @@ social-network-links:
   # email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  # github: daattali
+  twitter: gtmn
+  # patreon: DeanAttali
+  youtube: UndertheCouchMN
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+ instagram: gtmusiciansnetwork
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -80,13 +82,13 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: invite/invite_code or users/userid 
+ discord: invite/3SVwu9ZT6V 
 #  kaggle: yourname
 #  hackerrank: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: GT Musicians Network RSS Feed woahh
 
 ###########################
 # --- General options --- #
@@ -94,14 +96,14 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "https://discord.gg/3SVwu9ZT6V"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -116,7 +118,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -124,7 +126,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "georgia tech, musicians network, gtmn"
 
 ######################################
 # --- Colours / background image --- #
