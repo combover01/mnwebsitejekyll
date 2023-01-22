@@ -23,6 +23,12 @@
 - [FAQ and support](#faq-and-support)
 - [Credits and contributions](#credits)
 
+# Hosting Locally
+In order to host this locally on your desktop, run the following command: 
+```
+bundle exec jekyll serve
+```
+
 # Features
 
 __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the latest features!__
